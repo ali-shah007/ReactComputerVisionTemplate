@@ -61,7 +61,7 @@ const WeaponDetectionHighAccuracy = () => {
   };
 
   return (
-    <div className="relative max-w-4xl mx-auto mt-6">
+    <div className="relative max-w-4xl mx-auto mt-6 bg-red-500">
       <video
         ref={videoRef}
         autoPlay
